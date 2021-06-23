@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <title>Vive Camp</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <link rel = "stylesheet" href = "../../style/style.css">
+        <link rel = "stylesheet" href = "../../style/index.css">
+    </head>
+    <body>
+        <div>
+            <button onclick = "window.location.href = 'index.html'" class = "topnavButton topActive"><strong>Points</strong></button>
+            <button onclick = "window.location.href = 'schedule.html'" class = "topnavButton"><strong>Schedule</strong></button>
+            <button onclick = "window.location.href = 'booklet.html'" class = "topnavButton"><strong>Booklet</strong></button>
+            <button onclick = "window.location.href = '../leader-tables/blue-tribe.html'" class = "topnavButton"><strong>Leaders</strong></button>
+        </div>
+
+        <br>
+
+        <table>
+            <caption><strong>Vive Camp Points</strong></caption>
+            <tr class = "blue">
+                <td>Blue</td>
+                <td><span id = "bluePoints">0</span></td>
+            </tr>
+            <tr class = "red">
+                <td>Red</td>
+                <td><span id = "redPoints">0</span></td>
+            </tr>
+            <tr class = "orange">
+                <td>Orange</td>
+                <td><span id = "orangePoints">0</span></td>
+            </tr>
+            <tr class = "pink">
+                <td>Pink</td>
+                <td><span id = "pinkPoints">0</span></td>
+            </tr>
+            <tr class = "yellow">
+                <td>Yellow</td>
+                <td><span id = "yellowPoints">0</span></td>
+            </tr>
+            <tr class = "purple">
+                <td>Purple</td>
+                <td><span id = "purplePoints">0</span></td>
+            </tr>
+            <tr class = "green">
+                <td>Green</td>
+                <td><span id = "greenPoints">0</span></td>
+            </tr>
+            <tr class = "black">
+                <td>Black</td>
+                <td><span id = "blackPoints">0</span></td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <details>
+            <summary>Points Form</summary>
+
+            <form id = "pointsForm" onsubmit = "return false">
+                <br>
+                <select id = "tribe" required>
+                    <option value = "" disabled selected hidden>Choose a tribe</option>
+                    <option value = "Blue" id = "blue">Blue</option>
+                    <option value = "Red" id = "red">Red</option>
+                    <option value = "Orange" id = "orange">Orange</option>
+                    <option value = "Pink" id = "pink">Pink</option>
+                    <option value = "Yellow" id = "yellow">Yellow</option>
+                    <option value = "Purple" id = "purple">Purple</option>
+                    <option value = "Green" id = "green">Green</option>
+                    <option value = "Black" id = "black">Black</option>
+                </select>
+                <br><br>
+                <input type = "number" id = "pointAmount" placeholder = "Num. of Points" required>
+                <br><br>
+                <input type = "password" id = "passwordInput" placeholder = "Password" required>
+                <br><br>
+                <input type = "submit" onclick = "addPoints()">
+            </form>
+        </details>
+        
+        <br><br><br><br><br><br><br>
+
+        <script src = "../../script/index.js"></script>
+        <script src = "../../script/main.js"></script>
+    </body>
+    <footer>
+        <a href = "https://silverdalebc.churchcenter.com/registrations/events/717042">
+            <img class = "register" src = "../../images/vive-camp-register.png" alt = "Register for Vive Camp">
+        </a>
+    </footer>
+</html>

@@ -1,0 +1,60 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px 75px;
+    font-size: 50px;
+    color: white;
+    max-width: 500px;
+}
+tr.blue:hover {
+    background-color: blue;
+    transition: background-color .25s;
+    transition-delay: .1s;
+}
+tr.red:hover {
+    background-color: red;
+    transition: background-color .25s;
+    transition-delay: .1s;
+}
+tr.orange:hover {
+    background-color: orange;
+    transition: background-color .25s;
+    transition-delay: .1s;
+}
+tr.pink:hover {
+    background-color: pink;
+    transition: background-color .25s;
+    transition-delay: .1s;
+}
+tr.yellow:hover {
+    background-color: rgb(211, 211, 0);
+    transition: background-color .25s;
+    transition-delay: .1s;
+}
+tr.purple:hover {
+    background-color: purple;
+    transition: background-color .25s;
+    transition-delay: .1s;
+}
+tr.green:hover {
+    background-color: green;
+    transition: background-color .25s;
+    transition-delay: .1s;
+}
+tr.black:hover {
+    background-color: black;
+    transition: background-color .25s;
+    transition-delay: .1s;
+}
+details {
+    margin: 0px 75px;
+    color: white;
+}
+
+#pointAmount {
+    overflow: scroll;
+}
+td {
+    width: 205px;
+    max-width: 210px;
+}
