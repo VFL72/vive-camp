@@ -1,0 +1,29 @@
+.tribeBar .tribeButton {
+    color: #ddd;
+    font-size: x-large;
+    display: contents;
+}
+.tribeBar .blue.active {
+    color: blue;
+}
+.tribeBar .red.active {
+    color: red;
+}
+.tribeBar .orange.active {
+    color: orange;
+}
+.tribeBar .pink.active {
+    color: pink;
+}
+.tribeBar .yellow.active {
+    color: yellow;
+}
+.tribeBar .purple.active {
+    color: purple;
+}
+.tribeBar .green.active {
+    color: green;
+}
+.tribeBar .black.active {
+    color: black;
+}
